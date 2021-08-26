@@ -77,9 +77,19 @@ footer {
 	box-shadow: var(--shadow);
 }
 
+.headerFam{
+	border:2px red solid;
+	width: 900px;
+	display: grid;
+	justify-content: flex-start;
+	align-items: left;
+	position:static;
+}
 h2 {
+	
 	font-size: 1.8rem;
 	font-weight: bold;
+	
 }
 
 .gutter-right {
