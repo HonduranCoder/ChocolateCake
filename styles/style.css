@@ -85,6 +85,13 @@ footer {
 	align-items: left;
 	position:static;
 }
+.print{
+	border:2px rgb(0, 195, 255) solid;
+	width: 900px;
+	display: grid;
+	justify-content: flex-end;
+	align-items: left;
+	position:static;
 h2 {
 	
 	font-size: 1.8rem;
