@@ -77,9 +77,21 @@ footer {
 	box-shadow: var(--shadow);
 }
 
-h2 {
-	font-size: 1.8rem;
-	font-weight: bold;
+.headerFam{
+
+	width: 900px;
+	display: grid;
+	justify-content: flex-start;
+	align-items: left;
+	position:static;
+}
+.print{
+	
+	width: 900px;
+	display: grid;
+	justify-content: flex-end;
+	align-items: left;
+	position:static;
 }
 
 .gutter-right {
@@ -125,4 +137,33 @@ footer {
 	80% {
 		transform: rotate3d(10, 10, 10, 50deg) scale(1);
 	}
+}
+
+.list{
+	background-image: url("../assets/list-bg.png");
+	background-size: cover;
+	display: flex;
+	width: 1000px;
+}
+.listuno{
+	display: grid;
+	justify-content: flex-start;
+	align-items: left;
+	position:static;
+	margin-left: 39px;
+}
+.listdos{
+	
+	display: grid;
+	justify-content: flex-start;
+	align-items: left;
+	position:static;
+}
+.strikeout{
+	text-decoration: line-through 1px;
+}
+.paragraphe{
+	width: 951px;
+	justify-content: center;
+	align-items: center;
 }
