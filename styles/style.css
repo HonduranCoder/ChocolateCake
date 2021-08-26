@@ -78,7 +78,7 @@ footer {
 }
 
 .headerFam{
-	border:2px red solid;
+
 	width: 900px;
 	display: grid;
 	justify-content: flex-start;
@@ -86,7 +86,7 @@ footer {
 	position:static;
 }
 .print{
-	border:2px rgb(0, 195, 255) solid;
+	
 	width: 900px;
 	display: grid;
 	justify-content: flex-end;
@@ -158,4 +158,12 @@ footer {
 	justify-content: flex-start;
 	align-items: left;
 	position:static;
+}
+.strikeout{
+	text-decoration: line-through 1px;
+}
+.paragraphe{
+	width: 951px;
+	justify-content: center;
+	align-items: center;
 }
