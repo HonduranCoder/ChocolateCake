@@ -71,9 +71,22 @@ hr {
 }
 
 .bottom {
+	display: flex;
+	justify-content: flex-start;
+	align-items: left;
 	border-top: 5px dashed grey;
+	
 }
-
+.Vone{
+	display:flex;
+	flex-direction: row;
+}
+.pic{
+	
+	margin-right:10px;
+	
+	
+}
 .vanessa {
 	width: 900px;
 	display: grid;
@@ -81,7 +94,11 @@ hr {
 	align-items: left;
 	position: static;
 }
-
+.Vtwo{
+	display:flex;
+	flex-direction: row;
+	width:82%;
+}
 .food {
 	width: 900px;
 	display: grid;
@@ -204,3 +221,4 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
+
